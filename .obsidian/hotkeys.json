@@ -1,0 +1,11 @@
+{
+  "copilot:new-chat": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ]
+}

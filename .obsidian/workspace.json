@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "92717351196b6ccc",
+    "type": "split",
+    "children": [
+      {
+        "id": "b45c16c5a9c36792",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f4cb27142f18019",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aula/Automação.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Automação"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13351ece8fccce6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cbaf7096131f32b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90d578846452ed22",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "e26fdddc55b41da0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5
+  },
+  "right": {
+    "id": "694a26e46aa3ec5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5eab18e33cc0d722",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f93906977cff66a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para A morte de Ivan Ilitch - Tolstói, 1886"
+            }
+          },
+          {
+            "id": "f302aee2c311d51c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projeto Noticias/Modelo Algoritmo de recomendação.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Modelo Algoritmo de recomendação"
+            }
+          },
+          {
+            "id": "95d02a4a8dd84373",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "be781ffc5e9c8c15",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e5e06f5af75e0a51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projeto Noticias/Modelo Algoritmo de recomendação.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Modelo Algoritmo de recomendação"
+            }
+          },
+          {
+            "id": "4125ec1b87ef74f7",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Aula/Telecom 24-02.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Notas de rodapé"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
+      "canvas:Criar novo canvas": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3f4cb27142f18019",
+  "lastOpenFiles": [
+    "Aula/Automação.md",
+    "Aula/Telecom.md",
+    "Pasted image 20260312195524.png",
+    "Aula/Projetos II.md",
+    "Aula/Eletronica industrial.md",
+    "Pasted image 20260312195636.png",
+    "Aula/MEDIA/MToolIEC_E72H33xe09.gif",
+    "Aula/MEDIA/MToolIEC_zEwN1JuMH4.gif",
+    "Aula/MEDIA/MToolIEC_Z3sKk8gRie.gif",
+    "Aula/MEDIA/Pasted image 20260312112102.png",
+    "Aula/MEDIA/Pasted image 20260312112116.png",
+    "Aula/MEDIA/Pasted image 20260312112109.png",
+    "Aula/MEDIA/Pasted image 20260312111636.png",
+    "Aula/MEDIA/Pasted image 20260312111657.png",
+    "Aula/Telecom 24-02.md",
+    "Projeto Sintetizador/DCO ΓÇö Overview.md",
+    "Projeto Sintetizador/DCO ΓÇö BOM.md",
+    "Projeto Sintetizador/≡ƒÄ¢∩╕Å Sintetizador ΓÇö Overview.md",
+    "Projeto Sintetizador",
+    "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
+    "Aula/MEDIA/Aux1 - Plano de Numeração.pdf",
+    "Aula/Sem título.canvas",
+    "Aula/prog/trimestre4/T4 — Listas Ligadas.md",
+    "Aula/prog/trimestre4/Trimestre 4 — Índice.md",
+    "Aula/prog/Índice Principal.md",
+    "T3-Atividade — Sistema de Controle de Estoque.md",
+    "Trimestre 4 — Índice.md",
+    "Aula/prog/trimestre3/T3-Atividade ΓÇö Sistema de Controle de Estoque.md",
+    "Aula/prog/trimestre3/Trimestre 4 — Índice.md",
+    "Aula/prog/trimestre3/T3-Aula3 ΓÇö Exerc├¡cios com Vetores e Matrizes.md",
+    "Aula/prog/trimestre3/T3-Aula2 ΓÇö Matrizes.md",
+    "Aula/prog/trimestre3/T3-Aula1 ΓÇö Vetores.md",
+    "Aula/prog/trimestre2/T2-Aula2 ΓÇö Exerc├¡cios com Condicionais.md",
+    "Aula/prog/trimestre2/T2-Aula1 ΓÇö Switch Case.md",
+    "Aula/prog/trimestre1/Trimestre 1 ΓÇö ├ìndice.md",
+    "Aula/prog/trimestre1/T1-Aula7 ΓÇö Operador Tern├írio.md",
+    "Aula/prog/trimestre1/T1-Aula6 ΓÇö Operadores L├│gicos e Encadeamento.md",
+    "Aula/prog/trimestre1/T1-Aula5 ΓÇö Condicionais Aninhados.md",
+    "Aula/prog/trimestre4",
+    "Aula/prog/trimestre3",
+    "Aula/prog/trimestre2",
+    "Aula/prog/trimestre1",
+    "Aula/prog",
+    "Aula/New folder",
+    "copilot/copilot-custom-prompts",
+    "copilot"
+  ]
+}
