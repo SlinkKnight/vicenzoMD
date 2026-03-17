@@ -3,5 +3,8 @@
   "showLineNumber": false,
   "strictLineBreaks": false,
   "readableLineLength": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "MEDIA",
+  "newLinkFormat": "relative"
 }
