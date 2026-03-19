@@ -127,9 +127,16 @@
 
 ![](../MEDIA/8%20-%20Exercícios%20Contadores%20e%20Temporizadores.pdf)
 
-#### a
+A)
 ![](../MEDIA/Pasted%20image%2020260319090608.png)
 
-#### b
+B)
 
 ![](../MEDIA/Pasted%20image%2020260319090448.png)
+
+## Ligação com o CLP
+
+![](../MEDIA/Pasted%20image%2020260319101539.png)
+
+![](../MEDIA/Pasted%20image%2020260319101554.png)
+
