@@ -1,6 +1,6 @@
 
 ## Plano de numeração
-![[Aux1 - Plano de Numeração.pdf]]
+![](../MEDIA/Aux1%20-%20Plano%20de%20Numeração.pdf)
 1) 
 - **11 a 38 (Sudeste):** Abrange Rio de Janeiro, Minas Gerais, Espírito Santo, São Paulo. 
 - **41 a 55 (Sul):** Parana, Santa Catarina, Rio Grande do Sul. 
@@ -45,7 +45,29 @@ $$
 {dB = \Large 20 \log_{10}\left(\frac{V_{\text{out}}}{1mV}\right)}
 $$
 ### Atividades
-![[IMG_1224.png|300]]
-![[IMG_1225 1.png|300]]
+![](../MEDIA/IMG_1224.png)
+
+![](../MEDIA/IMG_1225%201.png)
 
 
+## Codificação
+
+![](../MEDIA/6%20-%20Codificação%20I.pdf)
+
+![](../MEDIA/6%20-%20Exercícios%20Codificação%20I.pdf)
+
+![](../MEDIA/WhatsApp%20Image%202026-03-19%20at%2008.25.09.jpeg)
+
+## Codificação II
+
+![](../MEDIA/7%20-%20Codificação%20II%201.pdf)
+
+![](../MEDIA/7%20-%20Exercícios%20Codificação%20II.pdf)
+
+## Modulção
+
+![](../MEDIA/8%20-%20Modulação-1.pdf)
+
+![](../MEDIA/8%20-%20Exercícios%20Modulação.pdf)
+
+![](../MEDIA/WhatsApp%20Image%202026-03-19%20at%2008.28.27.jpeg)
