@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
+                "file": "Aula/Telecom.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A morte de Ivan Ilitch - Tolstói, 1886"
+              "title": "Telecom"
             }
           }
         ]
@@ -186,8 +186,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f4cb27142f18019",
+  "active": "90d578846452ed22",
   "lastOpenFiles": [
+    "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
     "Aula/Automação.md",
     "MEDIA/Pasted image 20260226103659.png",
     "Aula/Eletronica industrial.md",
@@ -208,7 +209,6 @@
     "Projeto Sintetizador/DCO ΓÇö BOM.md",
     "Projeto Sintetizador/≡ƒÄ¢∩╕Å Sintetizador ΓÇö Overview.md",
     "Projeto Sintetizador",
-    "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
     "Aula/Sem título.canvas",
     "Aula/prog/trimestre4/T4 — Listas Ligadas.md",
     "Aula/prog/trimestre4/Trimestre 4 — Índice.md",
