@@ -122,3 +122,14 @@
 * **CV:** Contagem interna.
 * **QU:** Saida lógica incremental, nível alto quando CV >= PV.
 * **QD:** Saida lógica decremental, nível alto quando CV = 0.
+
+### Exercícios
+
+![](../MEDIA/8%20-%20Exercícios%20Contadores%20e%20Temporizadores.pdf)
+
+#### a
+![](../MEDIA/Pasted%20image%2020260319090608.png)
+
+#### b
+
+![](../MEDIA/Pasted%20image%2020260319090448.png)
