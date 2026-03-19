@@ -140,3 +140,6 @@ B)
 
 ![](../MEDIA/Pasted%20image%2020260319101554.png)
 
+## Semaforo 2 tempos
+
+![](../MEDIA/Pasted%20image%2020260319113410.png)
