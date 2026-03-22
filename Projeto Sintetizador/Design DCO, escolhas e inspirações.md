@@ -25,3 +25,8 @@ integrador, ou seja, tende a gerar uma onda linear com uma Vi constante.
 ![](../MEDIA/Pasted%20image%2020260322123104.png)
 
 Como o intuito do projeto é gerar uma onda dente de serra, e não uma triangular, colocaremos um reset
+
+
+## Fontes
+
+http://www.analoguerenaissance.com/D80017A/juno-serv.pdf
