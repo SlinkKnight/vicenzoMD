@@ -1,0 +1,1 @@
+Nossa jornada começa com O DCO (Digital controlled oscillator), que é, basicamente, 
