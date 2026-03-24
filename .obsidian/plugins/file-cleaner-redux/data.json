@@ -1,0 +1,31 @@
+{
+  "deletionDestination": "obsidian",
+  "obsidianTrashCleanupAge": 1,
+  "notifications": "showAll",
+  "excludeInclude": 0,
+  "excludedFolders": [],
+  "attachmentsExcludeInclude": 1,
+  "attachmentExtensions": [
+    "jpg",
+    "png",
+    "pdf",
+    "html",
+    "svg"
+  ],
+  "deletionConfirmation": true,
+  "runOnStartup": false,
+  "removeFolders": false,
+  "ignoredFrontmatter": [],
+  "ignoreAllFrontmatter": false,
+  "codeblockTypes": [],
+  "deleteEmptyMarkdownFiles": true,
+  "deleteEmptyMarkdownFilesWithBacklinks": false,
+  "fileAgeThreshold": 0,
+  "closeNewTabs": false,
+  "deleteEmptyFileOnClose": false,
+  "ExternalPlugins": {
+    "Excalidraw": {
+      "TreatAsAttachments": false
+    }
+  }
+}
