@@ -1,4 +1,4 @@
-**Tags:** `DCO` `VCO` `juno-106` `roland` `síntese-analógica`
+-**Tags:** `DCO` `VCO` `juno-106` `roland` `síntese-analógica`
 
 ---
 
