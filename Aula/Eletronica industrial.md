@@ -1,1 +1,0 @@
-Primeiro dia de aula com o Ricardo (eletrônica industrial). Pegamos diodos schottky do lixo eletrônico, ele disse para **levar componentes na próxima aula**, que iriamos usar os diodos para confecçãoo de fontes chaveadas.

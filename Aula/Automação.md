@@ -1,18 +1,24 @@
-## Portas lógicas no MasterTools
+**Professor:** Maicon Bandeira
+**Tags:** `ladder` `CLP` `portas-lógicas` `timers` `contadores`
+
+---
+
+## Portas Lógicas no MasterTools
 
 ### Porta AND
 
-![](../MEDIA/Pasted%20image%2020260226103621.png)
+![Diagrama porta AND](../_MEDIA/Pasted%20image%2020260226103621.png)
 
-| A   | B   | Saída |
-| --- | --- | ----- |
-| 0   | 0   | 0     |
-| 0   | 1   | 0     |
-| 1   | 0   | 0     |
-| 1   | 1   | 1     |
+| A | B | Saída |
+|---|---|-------|
+| 0 | 0 |   0   |
+| 0 | 1 |   0   |
+| 1 | 0 |   0   |
+| 1 | 1 |   1   |
+
 ### Porta OR
 
-![](../MEDIA/Pasted%20image%2020260226103659.png)
+![Diagrama porta OR](../_MEDIA/Pasted%20image%2020260226103659.png)
 
 | A | B | Saída |
 |---|---|-------|
@@ -20,9 +26,10 @@
 | 0 | 1 |   1   |
 | 1 | 0 |   1   |
 | 1 | 1 |   1   |
+
 ### Porta NOR
 
-![](../MEDIA/Pasted%20image%2020260226103804.png)
+![Diagrama porta NOR](../_MEDIA/Pasted%20image%2020260226103804.png)
 
 | A | B | Saída |
 |---|---|-------|
@@ -30,9 +37,10 @@
 | 0 | 1 |   0   |
 | 1 | 0 |   0   |
 | 1 | 1 |   0   |
+
 ### Porta NAND
 
-![](../MEDIA/Pasted%20image%2020260226103845.png)
+![Diagrama porta NAND](../_MEDIA/Pasted%20image%2020260226103845.png)
 
 | A | B | Saída |
 |---|---|-------|
@@ -40,9 +48,10 @@
 | 0 | 1 |   1   |
 | 1 | 0 |   1   |
 | 1 | 1 |   0   |
+
 ### Porta XOR
 
-![](../MEDIA/Pasted%20image%2020260226103949.png)
+![Diagrama porta XOR](../_MEDIA/Pasted%20image%2020260226103949.png)
 
 | A | B | Saída |
 |---|---|-------|
@@ -50,9 +59,10 @@
 | 0 | 1 |   1   |
 | 1 | 0 |   1   |
 | 1 | 1 |   0   |
+
 ### Porta XNOR
 
-![](../MEDIA/Pasted%20image%2020260226104819.png)
+![Diagrama porta XNOR](../_MEDIA/Pasted%20image%2020260226104819.png)
 
 | A | B | Saída |
 |---|---|-------|
@@ -60,86 +70,111 @@
 | 0 | 1 |   0   |
 | 1 | 0 |   0   |
 | 1 | 1 |   1   |
-## Timer em LADDER
 
-### Timer delay on
+---
 
-![](../MEDIA/MToolIEC_zEwN1JuMH4.gif)
+## Timers em LADDER
 
-* **TON:** Timer que ESPERA para elevar Q ao alto.
-* **IN:** Pulso que inicia o timer.
-* **PT:** Entrada em tempo, formato _T#5S.
-* **ET:** Variável de tempo interno
-* **Q:** Saida lógica.
-### Timer delay off!
+### Timer Delay On (TON)
 
-![](../MEDIA/MToolIEC_Z3sKk8gRie.gif)
+![Animação Timer Delay On](../_MEDIA/MToolIEC_zEwN1JuMH4.gif)
 
-* **TON:** Timer que ESPERA para abaixar.
-* **IN:** Pulso que inicia o timer.
-* **PT:** Entrada em tempo, formato _T#5S.
-* **ET:** Variável de tempo interno
-* **Q:** Saida lógica.
-### Timer pulse
+Timer que **espera** um tempo antes de elevar a saída `Q` ao nível alto.
 
-![](../MEDIA/MToolIEC_E72H33xe09.gif)
+- **`IN`:** Pulso que inicia o timer.
+- **`PT`:** Tempo de preset — formato `T#5S`.
+- **`ET`:** Variável de tempo interno (elapsed time).
+- **`Q`:** Saída lógica — vai a nível alto após `PT`.
 
-* **TON:** Timer que faz um pulso de X segundos.
-* **IN:** Pulso que inicia o timer.
-* **PT:** Entrada em tempo, formato _T#5S.
-* **ET:** Variável de tempo interno
-* **Q:** Saida lógica.
+### Timer Delay Off (TOF)
+
+![Animação Timer Delay Off](../_MEDIA/MToolIEC_Z3sKk8gRie.gif)
+
+Timer que **espera** um tempo antes de abaixar a saída `Q`.
+
+- **`IN`:** Pulso que inicia o timer.
+- **`PT`:** Tempo de preset — formato `T#5S`.
+- **`ET`:** Variável de tempo interno.
+- **`Q`:** Saída lógica — vai a nível baixo após `PT`.
+
+### Timer Pulse (TP)
+
+![Animação Timer Pulse](../_MEDIA/MToolIEC_E72H33xe09.gif)
+
+Timer que gera um **pulso de duração fixa** `PT` a partir de um sinal em `IN`.
+
+- **`IN`:** Pulso que inicia o timer.
+- **`PT`:** Duração do pulso — formato `T#5S`.
+- **`ET`:** Variável de tempo interno.
+- **`Q`:** Saída lógica — fica ativa pelo tempo definido em `PT`.
+
+---
+
 ## Contadores em LADDER
 
-### Contador UP
+### Contador UP (CTU)
 
-![](../MEDIA/Pasted%20image%2020260312111626.png)
+![Diagrama Contador UP](../_MEDIA/Pasted%20image%2020260312111626.png)
 
-* **CU:** Pulso de incremento do contador.
-* **RESET:** Leva CV a 0.
-* **PV:** Threshold, quando CV >= a PV, Q = 1.
-* **CV:** Contagem interna.
-* **Q:** Saida lógica.
+- **`CU`:** Pulso de incremento do contador.
+- **`RESET`:** Zera `CV`.
+- **`PV`:** Valor limite (threshold) — quando `CV >= PV`, `Q = 1`.
+- **`CV`:** Contagem interna.
+- **`Q`:** Saída lógica.
 
-### Contador DOWN
+### Contador DOWN (CTD)
 
-![](../MEDIA/Pasted%20image%2020260312111636.png)
+![Diagrama Contador DOWN](../_MEDIA/Pasted%20image%2020260312111636.png)
 
-* **CD:** Pulso de decremento do contador.
-* **LOAD:** Passa o valor de PV para CV.
-* **PV:** Valor INT.
-* **CV:** Contagem interna.
-* **Q:** Saida lógica, nível alto quando CV = 0.
-### Contador UP and Down
+- **`CD`:** Pulso de decremento do contador.
+- **`LOAD`:** Carrega o valor de `PV` em `CV`.
+- **`PV`:** Valor inicial (tipo `INT`).
+- **`CV`:** Contagem interna.
+- **`Q`:** Saída lógica — nível alto quando `CV = 0`.
 
-![](../MEDIA/Pasted%20image%2020260312111657.png)
+### Contador UP/DOWN (CTUD)
 
-* **CU:** Pulso de incremento do contador.
-* **CD:** Pulso de decremento do contador.
-* **RESET:** Leva CV a 0.
-* **LOAD:** Passa o valor de PV para CV.
-* **PV:** Valor INT.
-* **CV:** Contagem interna.
-* **QU:** Saida lógica incremental, nível alto quando CV >= PV.
-* **QD:** Saida lógica decremental, nível alto quando CV = 0.
+![Diagrama Contador UP/DOWN](../_MEDIA/Pasted%20image%2020260312111657.png)
 
-### Exercícios
+- **`CU`:** Pulso de incremento.
+- **`CD`:** Pulso de decremento.
+- **`RESET`:** Zera `CV`.
+- **`LOAD`:** Carrega o valor de `PV` em `CV`.
+- **`PV`:** Valor de referência (tipo `INT`).
+- **`CV`:** Contagem interna.
+- **`QU`:** Saída incremental — nível alto quando `CV >= PV`.
+- **`QD`:** Saída decremental — nível alto quando `CV = 0`.
 
-![](../MEDIA/8%20-%20Exercícios%20Contadores%20e%20Temporizadores.pdf)
+---
 
-A)
-![](../MEDIA/Pasted%20image%2020260319090608.png)
+## Exercícios
 
-B)
+![PDF Exercícios Contadores e Temporizadores](../_MEDIA/8%20-%20Exercícios%20Contadores%20e%20Temporizadores.pdf)
 
-![](../MEDIA/Pasted%20image%2020260319090448.png)
+### A)
+
+![Resolução exercício A](../_MEDIA/Pasted%20image%2020260319090608.png)
+
+### B)
+
+![Resolução exercício B](../_MEDIA/Pasted%20image%2020260319090448.png)
+
+---
 
 ## Ligação com o CLP
 
-![](../MEDIA/Pasted%20image%2020260319101539.png)
+A declaração de variáveis abaixo indica uma ligação com o CLP, podemos ver o uso da estrutura  **`AT %IX0.3`**, onde `AT = atribuição` e `%IX0.3` indica uma entrada (Input) no "GPIO" 0.3. A saída é indicada pelo `%IQ1.4`, onde Q significa saída no endereço 1.4:
 
-![](../MEDIA/Pasted%20image%2020260319101554.png)
+---
 
-## Semaforo 2 tempos
+![Diagrama de ligação CLP — parte 1](../_MEDIA/Pasted%20image%2020260319101539.png)
 
-![](../MEDIA/Pasted%20image%2020260319113410.png)
+![Diagrama de ligação CLP — parte 2](../_MEDIA/Pasted%20image%2020260319101554.png)
+
+> Usamos `Baudrate = 115200` no CLP Altus
+
+---
+
+## Semáforo 2 Tempos
+
+![Diagrama semáforo 2 tempos](../_MEDIA/Pasted%20image%2020260319113410.png)

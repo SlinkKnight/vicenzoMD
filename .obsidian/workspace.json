@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula/Projetos II.md",
+                "file": "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Projetos II"
+              "title": "Design DCO, escolhas e inspirações"
             }
           }
         ]
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
+                "file": "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para A morte de Ivan Ilitch - Tolstói, 1886"
+              "title": "Links inversos para Design DCO, escolhas e inspirações"
             }
           },
           {
@@ -103,12 +103,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projeto Noticias/Modelo Algoritmo de recomendação.md",
+                "file": "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Modelo Algoritmo de recomendação"
+              "title": "Links de saída para Design DCO, escolhas e inspirações"
             }
           },
           {
@@ -146,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projeto Noticias/Modelo Algoritmo de recomendação.md",
+                "file": "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Modelo Algoritmo de recomendação"
+              "title": "Sumário de Design DCO, escolhas e inspirações"
             }
           },
           {
@@ -161,14 +161,14 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Aula/Telecom 24-02.md"
+                "file": "Projeto Sintetizador/Design DCO, escolhas e inspirações.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas de rodapé"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,56 +184,55 @@
       "audio-recorder:Começar/parar a gravação de áudio": false,
       "canvas:Criar novo canvas": false,
       "obsidian-git:Open Git source control": false,
-      "file-cleaner-redux:Clean files": false
+      "file-cleaner-redux:Clean files": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "3f4cb27142f18019",
   "lastOpenFiles": [
-    "Aula/Telecom.md",
+    "Aula/Automação.md",
+    "Aula/Eletrônica Industrial.md",
     "Aula/Projetos II.md",
+    "Aula/Telecom.md",
+    "Aula/_Diretrizes de Padronização.md",
+    "Aula/Eletronica industrial.md",
+    "revisão aula",
+    "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "MEDIA/obsidian_linear_chart.html",
     "MEDIA/Pasted image 20260324111447.png",
-    "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
-    "Aula/Automação.md",
-    "MEDIA/Pasted image 20260322123104.png",
-    "MEDIA/Pasted image 20260322121556.png",
-    "MEDIA/Pasted image 20260322121051.png",
-    "MEDIA/Pasted image 20260319113410.png",
-    "MEDIA/Pasted image 20260319101554.png",
-    "MEDIA/Pasted image 20260319101539.png",
-    "MEDIA/Pasted image 20260319090608.png",
-    "MEDIA/Pasted image 20260319090448.png",
+    "_MEDIA/Pasted image 20260322123104.png",
+    "_MEDIA/Pasted image 20260322121556.png",
+    "_MEDIA/Pasted image 20260322121051.png",
+    "_MEDIA/Pasted image 20260319113410.png",
+    "_MEDIA/Pasted image 20260319101554.png",
+    "_MEDIA/Pasted image 20260319101539.png",
+    "_MEDIA/Pasted image 20260319090608.png",
+    "_MEDIA/Pasted image 20260319090448.png",
     "MEDIA/Pasted image 20260319090423.png",
-    "MEDIA/8 - Exercícios Contadores e Temporizadores.pdf",
-    "MEDIA/8 - Exercícios Modulação.pdf",
-    "MEDIA/8 - Modulação-1.pdf",
-    "MEDIA/7 - Exercícios Codificação II.pdf",
-    "MEDIA/7 - Codificação II 1.pdf",
+    "_MEDIA/8 - Exercícios Contadores e Temporizadores.pdf",
+    "_MEDIA/8 - Exercícios Modulação.pdf",
+    "_MEDIA/8 - Modulação-1.pdf",
+    "_MEDIA/7 - Exercícios Codificação II.pdf",
+    "_MEDIA/7 - Codificação II 1.pdf",
     "MEDIA/7 - Codificação II.pdf",
-    "MEDIA/6 - Exercícios Codificação I.pdf",
-    "MEDIA/6 - Codificação I.pdf",
     "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
-    "Aula/Eletronica industrial.md",
-    "MEDIA/Aux1 - Plano de Numeração.pdf",
-    "Aula/Telecom 24-02.md",
-    "Projeto Sintetizador/DCO ΓÇö Overview.md",
-    "Projeto Sintetizador/DCO ΓÇö BOM.md",
-    "Projeto Sintetizador/≡ƒÄ¢∩╕Å Sintetizador ΓÇö Overview.md",
-    "Aula/Sem título.canvas",
-    "Aula/prog/trimestre4/T4 — Listas Ligadas.md",
-    "Aula/prog/trimestre4/Trimestre 4 — Índice.md",
-    "Aula/prog/Índice Principal.md",
-    "T3-Atividade — Sistema de Controle de Estoque.md",
-    "Trimestre 4 — Índice.md",
-    "Aula/prog/trimestre3/T3-Atividade ΓÇö Sistema de Controle de Estoque.md",
-    "Aula/prog/trimestre3/Trimestre 4 — Índice.md",
-    "Aula/prog/trimestre3/T3-Aula3 ΓÇö Exerc├¡cios com Vetores e Matrizes.md",
-    "Aula/prog/trimestre3/T3-Aula2 ΓÇö Matrizes.md",
-    "Aula/prog/trimestre3/T3-Aula1 ΓÇö Vetores.md",
-    "Aula/prog/trimestre2/T2-Aula2 ΓÇö Exerc├¡cios com Condicionais.md",
-    "Aula/prog/trimestre2/T2-Aula1 ΓÇö Switch Case.md",
-    "Aula/prog/trimestre1/Trimestre 1 ΓÇö ├ìndice.md",
-    "Aula/prog/trimestre1/T1-Aula7 ΓÇö Operador Tern├írio.md",
-    "Aula/prog/trimestre1/T1-Aula6 ΓÇö Operadores L├│gicos e Encadeamento.md"
+    "Aula/Sem título.canvas"
   ]
 }
