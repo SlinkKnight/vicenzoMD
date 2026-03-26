@@ -178,3 +178,6 @@ A declaração de variáveis abaixo indica uma ligação com o CLP, podemos ver 
 ## Semáforo 2 Tempos
 
 ![Diagrama semáforo 2 tempos](../_MEDIA/Pasted%20image%2020260319113410.png)
+
+
+![](../MEDIA/Pasted%20image%2020260326105239.png)

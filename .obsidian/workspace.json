@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+                "file": "Aula/Automação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design do DCO — Escolhas e Inspirações"
+              "title": "Automação"
             }
           }
         ]
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+                "file": "Aula/Automação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Design do DCO — Escolhas e Inspirações"
+              "title": "Links inversos para Automação"
             }
           },
           {
@@ -103,12 +103,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+                "file": "Aula/Automação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Design do DCO — Escolhas e Inspirações"
+              "title": "Links de saída para Automação"
             }
           },
           {
@@ -146,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+                "file": "Aula/Automação.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Design do DCO — Escolhas e Inspirações"
+              "title": "Sumário de Automação"
             }
           },
           {
@@ -161,7 +161,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md"
+                "file": "Aula/Automação.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas de rodapé"
@@ -190,12 +190,14 @@
   },
   "active": "3f4cb27142f18019",
   "lastOpenFiles": [
+    "MEDIA/Pasted image 20260326105239.png",
+    "MEDIA",
+    "Aula/Eletrônica Industrial.md",
     "Aula/Telecom.md",
     "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
     "Aula/Automação.md",
     "Projeto Sintetizador/Design DCO, escolhas e inspirações remake.md",
     "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
-    "Aula/Eletrônica Industrial.md",
     "Aula/Projetos II.md",
     "Aula/_Diretrizes de Padronização.md",
     "Aula/Eletronica industrial.md",
@@ -233,7 +235,6 @@
     "_MEDIA/8 - Modulação-1.pdf",
     "_MEDIA/7 - Exercícios Codificação II.pdf",
     "_MEDIA/7 - Codificação II 1.pdf",
-    "MEDIA/7 - Codificação II.pdf",
     "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
     "Aula/Sem título.canvas"
   ]
