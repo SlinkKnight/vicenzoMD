@@ -2,7 +2,7 @@
 
 ## 1. Estrutura do Arquivo
 
-- Logo abaixo do título (incluso por padrão, não precisa criar), incluir um bloco de metadados com `Professor`, `Data` e `Tags` (se aplicável):
+- Incluir um bloco de metadados com `Professor`, `Data` e `Tags` (se aplicável):
 
 ```
 **Professor:** Nome  
