@@ -106,6 +106,7 @@ $$dBmV = 20 \log_{10}\!\left(\frac{V_{out}}{1\,\text{mV}}\right)$$
 
 ![PDF Atividade Trabalho Modulação](../_MEDIA/Atv_TK_Telecom-1.pdf)
 
+---
 ### 1) Modulação em Frequência (FSK)
 
 Cada bit do sinal recebido define a frequência da senoide gerada: `dados[i] + 1` Hz.
@@ -153,6 +154,7 @@ void loop() {
 
 ![Resultado questão 1](../_MEDIA/Pasted%20image%2020260326213136.png)
 
+---
 ### 2) Modulação em Amplitude (ASK)
 
 Cada bit controla a amplitude da senoide: `0` silencia o sinal, `1` transmite com amplitude unitária.
@@ -200,6 +202,7 @@ void loop() {
 
 ![Resultado questão 2](../_MEDIA/Pasted%20image%2020260326212723.png)
 
+---
 ### 3) Modulação em Fase (PSK)
 
 Cada bit define a fase da senoide: `1` → fase `π`, `0` → fase `0`.
@@ -248,6 +251,7 @@ void loop() {
 
 ![Resultado questão 3](../_MEDIA/Pasted%20image%2020260326212403.png)
 
+---
 ### 4) Sinal NRZ-L
 
 Cada bit define diretamente o nível do sinal: `1` → nível `0`, `0` → nível `2`. O valor é transmitido como forma de onda constante por período.
@@ -292,7 +296,8 @@ void loop() {
 
 ![Resultado questão 4](../_MEDIA/Pasted%20image%2020260326215652.png)
 
-### 5) Array de 16 bits com half-bit zero
+---
+### 5) Return to zero
 
 Expansão do array para 16 posições: cada byte serial ocupa um índice par, e o índice ímpar seguinte (half-bit) é forçado a `1`.
 
