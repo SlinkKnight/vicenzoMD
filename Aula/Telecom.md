@@ -100,3 +100,8 @@ $$dBmV = 20 \log_{10}\!\left(\frac{V_{out}}{1\,\text{mV}}\right)$$
 ![PDF Exercícios Modulação](../_MEDIA/8%20-%20Exercícios%20Modulação.pdf)
 
 ![Resolução Modulação](../_MEDIA/WhatsApp%20Image%202026-03-19%20at%2008.28.27.jpeg)
+
+
+
+
+
