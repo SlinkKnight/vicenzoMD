@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula/_Diretrizes de Padronização.md",
+                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Diretrizes de Padronização"
+              "title": "Design do DCO — Escolhas e Inspirações"
             }
           }
         ]
@@ -190,11 +190,11 @@
   "active": "29fad389e28f8e50",
   "lastOpenFiles": [
     "Aula/Automacao.md",
+    "Aula/_Diretrizes de Padronização.md",
     "Aula/Projetos II.md",
     "Aula/Telecom.md",
     "Aula/Eletrônica Industrial.md",
     "Aula/Automação.md",
-    "Aula/_Diretrizes de Padronização.md",
     "_MEDIA/Pasted image 20260326221317.png",
     "_MEDIA/6 - Codificação I.pdf",
     "_MEDIA/6 - Exercícios Codificação I.pdf",

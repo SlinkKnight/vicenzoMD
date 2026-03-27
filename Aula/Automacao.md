@@ -167,7 +167,7 @@ Implementação de semáforo com dois estados temporizados em Ladder.
 
 ---
 
-## Semáforo 4 Tempos
+## Visualizações
 
 Implementação de semáforo com quatro estados temporizados em Ladder.
 
