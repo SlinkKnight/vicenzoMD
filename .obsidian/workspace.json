@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+                "file": "TCC/Diário de campo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design do DCO — Escolhas e Inspirações"
+              "title": "Diário de campo"
             }
           }
         ]
@@ -189,6 +189,9 @@
   },
   "active": "29fad389e28f8e50",
   "lastOpenFiles": [
+    "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+    "TCC/Diário de campo.md",
+    "TCC",
     "Aula/Automacao.md",
     "Aula/_Diretrizes de Padronização.md",
     "Aula/Projetos II.md",
@@ -209,7 +212,6 @@
     "_MEDIA/Pasted image 20260326212203.png",
     "_MEDIA/Atv_TK_Telecom-1.pdf",
     "MEDIA",
-    "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
     "Projeto Sintetizador/Design DCO, escolhas e inspirações remake.md",
     "Projeto Sintetizador/Design DCO, escolhas e inspirações.md",
     "Aula/Eletronica industrial.md",
@@ -233,8 +235,6 @@
     "copilot",
     "MEDIA/obsidian_linear_chart.html",
     "_MEDIA/8 - Exercícios Contadores e Temporizadores.pdf",
-    "_MEDIA/8 - Exercícios Modulação.pdf",
-    "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
     "Aula/Sem título.canvas"
   ]
 }
