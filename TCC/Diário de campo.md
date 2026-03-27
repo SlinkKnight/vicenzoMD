@@ -6,4 +6,3 @@ Conversa com o orientador para a adoção de um sistema TODO no Trello, para mel
 fluxo metodológico: pesquisa bibliográfica para descobrir o problema → questionário com pessoas deficientes → criação do protótipo → avaliação do protótipo com o publico alvo → melhora do protótipo → Teste final → possíveis melhorias → outro teste. (se necessário). 
 
 
-

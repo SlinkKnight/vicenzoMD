@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula/Telecom.md",
+                "file": "TCC/Diário de campo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Telecom"
+              "title": "Diário de campo"
             }
           }
         ]
@@ -189,9 +189,9 @@
   },
   "active": "29fad389e28f8e50",
   "lastOpenFiles": [
+    "Aula/Telecom.md",
     "TCC/Diário de campo.md",
     "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
-    "Aula/Telecom.md",
     "Aula/Projetos II.md",
     "TCC",
     "Aula/Automacao.md",
