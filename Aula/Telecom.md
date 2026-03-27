@@ -101,7 +101,168 @@ $$dBmV = 20 \log_{10}\!\left(\frac{V_{out}}{1\,\text{mV}}\right)$$
 
 ![Resolução Modulação](../_MEDIA/WhatsApp%20Image%202026-03-19%20at%2008.28.27.jpeg)
 
+---
+
+## Trabalho modulação
+
+![](../MEDIA/Atv_TK_Telecom-1.pdf)
+
+### 1)
+
+![](../MEDIA/Pasted%20image%2020260326212954.png)
+
+`int i, j=1,z, dados[10];
+float freq=0.5,phase=0,tempo=0,senoide=0;
+const float pi = 3.1415;
+unsigned long inter=50;
+unsigned long tin, tend;
+void setup()
+{
+Serial.begin(9600);
+}
+void loop()
+{
+if (Serial.available() >= 10)
+{
+for (i=0; i < 10 ; i++)
+{
+dados[i] = Serial.read();
+if(dados[i]==49)
+dados[i]=1;
+else if(dados[i]==48)
+dados[i]=0;
+}
+j=0;
+}
+if(j==0)
+{
+for (i=0;i<10;i++)
+{
+for (z=0; z<40;z++)
+{
+tempo = (float)z*((float)inter/1000);
+senoide= 1.00 * sin(2*pi*((float)dados[i] + 1.00)*tempo +
+phase);
+Serial.println(senoide);
+tin = millis();
+tend=tin+inter;
+while(tin<tend)
+{
+tin=millis();
+}
+}
+}
+j=1;
+}
+}`
+
+
+![](../MEDIA/Pasted%20image%2020260326213136.png)
+### 2)
+
+![](../MEDIA/Pasted%20image%2020260326212506.png)
+
+`int i, j=1,z, dados[10];
+float freq=0.5,phase=0,tempo=0,senoide=0;
+const float pi = 3.1415;
+unsigned long inter=50;
+unsigned long tin, tend;
+void setup()
+{
+Serial.begin(9600);
+}
+void loop()
+{
+if (Serial.available() >= 10)
+{
+for (i=0; i < 10 ; i++)
+{
+dados[i] = Serial.read();
+if(dados[i]==49)
+dados[i]=1;
+else if(dados[i]==48)
+dados[i]=0;
+}
+j=0;
+}
+if(j==0)
+{
+for (i=0;i<10;i++)
+{
+for (z=0; z<40;z++)
+{
+tempo = (float)z*((float)inter/1000);
+senoide= (float)dados[i] * sin(2*pi*1.00*tempo +
+phase);
+Serial.println(senoide);
+tin = millis();
+tend=tin+inter;
+while(tin<tend)
+{
+tin=millis();
+}
+}
+}
+j=1;
+}
+}`
+
+![](../MEDIA/Pasted%20image%2020260326212723.png)
+
+### 3)
+
+![](../MEDIA/Pasted%20image%2020260326212140.png)
+
+`int i, j=1,z, dados[10];
+float freq=0.5,phase=1.0,tempo=0,senoide=0;
+const float pi = 3.1415;
+unsigned long inter=50;
+unsigned long tin, tend;
+void setup()
+{
+Serial.begin(9600);
+}
+void loop()
+{
+if (Serial.available() >= 10)
+{
+for (i=0; i < 10 ; i++)
+{
+dados[i] = Serial.read();
+if(dados[i]==49)
+dados[i]=1;
+else if(dados[i]==48)
+dados[i]=0;
+}
+j=0;
+}
+if(j==0)
+{
+for (i=0;i<10;i++)
+{
+phase = (dados[i] == 1)? pi:0.0;
+for (z=0; z<40;z++)
+{
+tempo = (float)z*((float)inter/1000);
+senoide= 1.0 * sin(2*pi*freq*tempo +
+phase);
+Serial.println(senoide);
+tin = millis();
+tend=tin+inter;
+while(tin<tend)
+{
+tin=millis();
+}
+}
+}
+j=1;
+}
+}`
+
+![](../MEDIA/Pasted%20image%2020260326212403.png)
+
+### 4)
 
 
 
-
+### 5)
