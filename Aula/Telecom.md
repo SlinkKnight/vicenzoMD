@@ -25,16 +25,16 @@ O segundo algarismo do **DDD** (Código Nacional ou Código de Área) define a *
 
 ### 4. Códigos de País (DDI)
 
-| País | Código |
-|------|--------|
-| Estados Unidos | +1 |
-| Alemanha | +49 |
-| México | +52 |
-| Suécia | +46 |
-| Brasil | +55 |
-| China | +86 |
-| Japão | +81 |
-| Itália | +39 |
+| País           | Código |
+|----------------|--------|
+| Estados Unidos | +1     |
+| Alemanha       | +49    |
+| México         | +52    |
+| Suécia         | +46    |
+| Brasil         | +55    |
+| China          | +86    |
+| Japão          | +81    |
+| Itália         | +39    |
 
 ### 5. Centrais Duplas
 
@@ -65,13 +65,12 @@ $$dBV = 20 \log_{10}\!\left(\frac{V_{out}}{1\,\text{V}}\right)$$
 ### dBmV (referência 1 mV)
 
 $$dBmV = 20 \log_{10}\!\left(\frac{V_{out}}{1\,\text{mV}}\right)$$
+
 ### Atividades
 
 ![Atividade 1](../_MEDIA/IMG_1225%201.png)
 
 ![Resposta Atividade 1](../_MEDIA/IMG_1224.png)
-
-
 
 ---
 
@@ -103,209 +102,237 @@ $$dBmV = 20 \log_{10}\!\left(\frac{V_{out}}{1\,\text{mV}}\right)$$
 
 ---
 
-## Trabalho modulação
+## Trabalho de Modulação
 
-![](../MEDIA/Atv_TK_Telecom-1.pdf)
+![PDF Atividade Trabalho Modulação](../_MEDIA/Atv_TK_Telecom-1.pdf)
 
-### 1)
+### 1) Modulação em Frequência (FSK)
 
-![](../MEDIA/Pasted%20image%2020260326212954.png)
+Cada bit do sinal recebido define a frequência da senoide gerada: `dados[i] + 1` Hz.
 
-`int i, j=1,z, dados[10];
-float freq=0.5,phase=0,tempo=0,senoide=0;
+![Enunciado questão 1](../_MEDIA/Pasted%20image%2020260326212954.png)
+
+```cpp
+int i, j=1, z, dados[10];
+float freq=0.5, phase=0, tempo=0, senoide=0;
 const float pi = 3.1415;
 unsigned long inter=50;
 unsigned long tin, tend;
-void setup()
-{
-Serial.begin(9600);
-}
-void loop()
-{
-if (Serial.available() >= 10)
-{
-for (i=0; i < 10 ; i++)
-{
-dados[i] = Serial.read();
-if(dados[i]==49)
-dados[i]=1;
-else if(dados[i]==48)
-dados[i]=0;
-}
-j=0;
-}
-if(j==0)
-{
-for (i=0;i<10;i++)
-{
-for (z=0; z<40;z++)
-{
-tempo = (float)z*((float)inter/1000);
-senoide= 1.00 * sin(2*pi*((float)dados[i] + 1.00)*tempo +
-phase);
-Serial.println(senoide);
-tin = millis();
-tend=tin+inter;
-while(tin<tend)
-{
-tin=millis();
-}
-}
-}
-j=1;
-}
-}`
 
+void setup() {
+  Serial.begin(9600);
+}
 
-![](../MEDIA/Pasted%20image%2020260326213136.png)
-### 2)
+void loop() {
+  if (Serial.available() >= 10) {
+    for (i=0; i < 10; i++) {
+      dados[i] = Serial.read();
+      if (dados[i] == 49)
+        dados[i] = 1;
+      else if (dados[i] == 48)
+        dados[i] = 0;
+    }
+    j = 0;
+  }
 
-![](../MEDIA/Pasted%20image%2020260326212506.png)
+  if (j == 0) {
+    for (i=0; i<10; i++) {
+      for (z=0; z<40; z++) {
+        tempo = (float)z * ((float)inter / 1000);
+        senoide = 1.00 * sin(2 * pi * ((float)dados[i] + 1.00) * tempo + phase);
+        Serial.println(senoide);
+        tin = millis();
+        tend = tin + inter;
+        while (tin < tend) { tin = millis(); }
+      }
+    }
+    j = 1;
+  }
+}
+```
 
-`int i, j=1,z, dados[10];
-float freq=0.5,phase=0,tempo=0,senoide=0;
+![Resultado questão 1](../_MEDIA/Pasted%20image%2020260326213136.png)
+
+### 2) Modulação em Amplitude (ASK)
+
+Cada bit controla a amplitude da senoide: `0` silencia o sinal, `1` transmite com amplitude unitária.
+
+![Enunciado questão 2](../_MEDIA/Pasted%20image%2020260326212506.png)
+
+```cpp
+int i, j=1, z, dados[10];
+float freq=0.5, phase=0, tempo=0, senoide=0;
 const float pi = 3.1415;
 unsigned long inter=50;
 unsigned long tin, tend;
-void setup()
-{
-Serial.begin(9600);
-}
-void loop()
-{
-if (Serial.available() >= 10)
-{
-for (i=0; i < 10 ; i++)
-{
-dados[i] = Serial.read();
-if(dados[i]==49)
-dados[i]=1;
-else if(dados[i]==48)
-dados[i]=0;
-}
-j=0;
-}
-if(j==0)
-{
-for (i=0;i<10;i++)
-{
-for (z=0; z<40;z++)
-{
-tempo = (float)z*((float)inter/1000);
-senoide= (float)dados[i] * sin(2*pi*1.00*tempo +
-phase);
-Serial.println(senoide);
-tin = millis();
-tend=tin+inter;
-while(tin<tend)
-{
-tin=millis();
-}
-}
-}
-j=1;
-}
-}`
 
-![](../MEDIA/Pasted%20image%2020260326212723.png)
+void setup() {
+  Serial.begin(9600);
+}
 
-### 3)
+void loop() {
+  if (Serial.available() >= 10) {
+    for (i=0; i < 10; i++) {
+      dados[i] = Serial.read();
+      if (dados[i] == 49)
+        dados[i] = 1;
+      else if (dados[i] == 48)
+        dados[i] = 0;
+    }
+    j = 0;
+  }
 
-![](../MEDIA/Pasted%20image%2020260326212140.png)
+  if (j == 0) {
+    for (i=0; i<10; i++) {
+      for (z=0; z<40; z++) {
+        tempo = (float)z * ((float)inter / 1000);
+        senoide = (float)dados[i] * sin(2 * pi * 1.00 * tempo + phase);
+        Serial.println(senoide);
+        tin = millis();
+        tend = tin + inter;
+        while (tin < tend) { tin = millis(); }
+      }
+    }
+    j = 1;
+  }
+}
+```
 
-`int i, j=1,z, dados[10];
-float freq=0.5,phase=1.0,tempo=0,senoide=0;
+![Resultado questão 2](../_MEDIA/Pasted%20image%2020260326212723.png)
+
+### 3) Modulação em Fase (PSK)
+
+Cada bit define a fase da senoide: `1` → fase `π`, `0` → fase `0`.
+
+![Enunciado questão 3](../_MEDIA/Pasted%20image%2020260326212140.png)
+
+```cpp
+int i, j=1, z, dados[10];
+float freq=0.5, phase=1.0, tempo=0, senoide=0;
 const float pi = 3.1415;
 unsigned long inter=50;
 unsigned long tin, tend;
-void setup()
-{
-Serial.begin(9600);
-}
-void loop()
-{
-if (Serial.available() >= 10)
-{
-for (i=0; i < 10 ; i++)
-{
-dados[i] = Serial.read();
-if(dados[i]==49)
-dados[i]=1;
-else if(dados[i]==48)
-dados[i]=0;
-}
-j=0;
-}
-if(j==0)
-{
-for (i=0;i<10;i++)
-{
-phase = (dados[i] == 1)? pi:0.0;
-for (z=0; z<40;z++)
-{
-tempo = (float)z*((float)inter/1000);
-senoide= 1.0 * sin(2*pi*freq*tempo +
-phase);
-Serial.println(senoide);
-tin = millis();
-tend=tin+inter;
-while(tin<tend)
-{
-tin=millis();
-}
-}
-}
-j=1;
-}
-}`
 
-![](../MEDIA/Pasted%20image%2020260326212403.png)
+void setup() {
+  Serial.begin(9600);
+}
 
-### 4)
+void loop() {
+  if (Serial.available() >= 10) {
+    for (i=0; i < 10; i++) {
+      dados[i] = Serial.read();
+      if (dados[i] == 49)
+        dados[i] = 1;
+      else if (dados[i] == 48)
+        dados[i] = 0;
+    }
+    j = 0;
+  }
 
-![](../MEDIA/Pasted%20image%2020260326215205.png)
+  if (j == 0) {
+    for (i=0; i<10; i++) {
+      phase = (dados[i] == 1) ? pi : 0.0;
+      for (z=0; z<40; z++) {
+        tempo = (float)z * ((float)inter / 1000);
+        senoide = 1.0 * sin(2 * pi * freq * tempo + phase);
+        Serial.println(senoide);
+        tin = millis();
+        tend = tin + inter;
+        while (tin < tend) { tin = millis(); }
+      }
+    }
+    j = 1;
+  }
+}
+```
 
-`int i, j=1,z, dados[8];
+![Resultado questão 3](../_MEDIA/Pasted%20image%2020260326212403.png)
+
+### 4) Sinal NRZ-L
+
+Cada bit define diretamente o nível do sinal: `1` → nível `0`, `0` → nível `2`. O valor é transmitido como forma de onda constante por período.
+
+![Enunciado questão 4](../_MEDIA/Pasted%20image%2020260326215205.png)
+
+```cpp
+int i, j=1, z, dados[8];
 const float pi = 3.1415;
 unsigned long inter=50;
 unsigned long tin, tend;
-void setup()
-{
-Serial.begin(9600);
-}
-void loop()
-{
-if (Serial.available() >= 8)
-{
-for (i=0; i < 8 ; i++)
-{
-dados[i] = Serial.read();
-if(dados[i]==49)
-dados[i]=0;
-else if(dados[i]==48)
-dados[i]=2;
-}
-j=0;
-}
-if(j==0)
-{
-for (i=0;i<8;i++)
-{
-for (z=0; z<40;z++)
-{
-Serial.println((float)dados[i]);
-tin = millis();
-tend=tin+inter;
-while(tin<tend)
-{
-tin=millis();
-}
-}
-}
-j=1;
-}
-}`
 
-![](../MEDIA/Pasted%20image%2020260326215652.png)
+void setup() {
+  Serial.begin(9600);
+}
 
-### 5)
+void loop() {
+  if (Serial.available() >= 8) {
+    for (i=0; i < 8; i++) {
+      dados[i] = Serial.read();
+      if (dados[i] == 49)
+        dados[i] = 0;
+      else if (dados[i] == 48)
+        dados[i] = 2;
+    }
+    j = 0;
+  }
+
+  if (j == 0) {
+    for (i=0; i<8; i++) {
+      for (z=0; z<40; z++) {
+        Serial.println((float)dados[i]);
+        tin = millis();
+        tend = tin + inter;
+        while (tin < tend) { tin = millis(); }
+      }
+    }
+    j = 1;
+  }
+}
+```
+
+![Resultado questão 4](../_MEDIA/Pasted%20image%2020260326215652.png)
+
+### 5) Array de 16 bits com half-bit zero
+
+Expansão do array para 16 posições: cada byte serial ocupa um índice par, e o índice ímpar seguinte (half-bit) é forçado a `1`.
+
+![Enunciado questão 5](../_MEDIA/Pasted%20image%2020260326221215.png)
+
+```cpp
+int i, j = 1, z, dados[16];
+unsigned long inter = 50;
+unsigned long tin, tend;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() >= 8) {
+    for (i = 0; i < 16; i += 2) {
+      dados[i] = Serial.read();
+      if (dados[i] == 49)
+        dados[i] = 2;
+      else if (dados[i] == 48)
+        dados[i] = 0;
+
+      dados[i + 1] = 1;
+    }
+    j = 0;
+  }
+
+  if (j == 0) {
+    for (i = 0; i < 16; i++) {
+      for (z = 0; z < 20; z++) {
+        Serial.println((float)dados[i]);
+        tin = millis();
+        tend = tin + inter;
+        while (tin < tend) { tin = millis(); }
+      }
+    }
+    j = 1;
+  }
+}
+```
+
+![Resultado questão 5](../_MEDIA/Pasted%20image%2020260326221317.png)
