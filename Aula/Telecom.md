@@ -263,6 +263,49 @@ j=1;
 
 ### 4)
 
+![](../MEDIA/Pasted%20image%2020260326215205.png)
 
+`int i, j=1,z, dados[8];
+const float pi = 3.1415;
+unsigned long inter=50;
+unsigned long tin, tend;
+void setup()
+{
+Serial.begin(9600);
+}
+void loop()
+{
+if (Serial.available() >= 8)
+{
+for (i=0; i < 8 ; i++)
+{
+dados[i] = Serial.read();
+if(dados[i]==49)
+dados[i]=0;
+else if(dados[i]==48)
+dados[i]=2;
+}
+j=0;
+}
+if(j==0)
+{
+for (i=0;i<8;i++)
+{
+for (z=0; z<40;z++)
+{
+Serial.println((float)dados[i]);
+tin = millis();
+tend=tin+inter;
+while(tin<tend)
+{
+tin=millis();
+}
+}
+}
+j=1;
+}
+}`
+
+![](../MEDIA/Pasted%20image%2020260326215652.png)
 
 ### 5)
