@@ -15,7 +15,6 @@ O funcionamento do DCO, seus flaws de design e as soluções adotadas estão des
 O CPU recebe o feed de um clock e calcula a frequência com base no input das teclas. Essa frequência é passada por um **gerador de rampa analógico**, que combina a precisão digital com a geração analógica. A rampa resultante segue para os **waveshapers**, que definem o formato final de onda de maneira analógica.
 
 ---
-
 ## O CPU
 
 *(a preencher)*
