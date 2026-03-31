@@ -145,6 +145,19 @@ Timer que gera um **pulso de duração fixa** `PT` a partir de um sinal em `IN`.
 - **`QU`:** Saída incremental — nível alto quando `CV >= PV`.
 - **`QD`:** Saída decremental — nível alto quando `CV = 0`.
 
+___ 
+### Exercícios
+
+![PDF Exercícios Contadores e Temporizadores](../_MEDIA/8%20-%20Exercícios%20Contadores%20e%20Temporizadores.pdf)
+
+### A)
+
+![Resolução exercício A](../_MEDIA/Pasted%20image%2020260319090608.png)
+
+### B)
+
+![Resolução exercício B](../_MEDIA/Pasted%20image%2020260319090448.png)
+
 ---
 
 ## Ligação com o CLP
@@ -178,15 +191,3 @@ Implementação de semáforo com quatro estados temporizados em Ladder.
 ![Animação semáforo 4 tempos](../_MEDIA/MToolIEC_rb10Zgg2tL.gif)
 
 ---
-
-## Exercícios
-
-![PDF Exercícios Contadores e Temporizadores](../_MEDIA/8%20-%20Exercícios%20Contadores%20e%20Temporizadores.pdf)
-
-### A)
-
-![Resolução exercício A](../_MEDIA/Pasted%20image%2020260319090608.png)
-
-### B)
-
-![Resolução exercício B](../_MEDIA/Pasted%20image%2020260319090448.png)
