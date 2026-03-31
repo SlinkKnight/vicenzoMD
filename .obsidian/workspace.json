@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Design do DCO — Escolhas e Inspirações"
             }
+          },
+          {
+            "id": "3b7700962f74e251",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blog.thea.codes/the-design-of-the-juno-dco/",
+                "title": "The Design of the Roland Juno oscillators - Stargirl (Thea) Flowers",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "The Design of the Roland Juno oscillators - Stargirl (Thea) Flowers"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,14 +202,14 @@
       "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "29fad389e28f8e50",
+  "active": "3b7700962f74e251",
   "lastOpenFiles": [
-    "Aula/Automacao.md",
-    "Aula/Eletrônica Industrial.md",
-    "Aula/Projetos II.md",
-    "Aula/Telecom.md",
     "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
     "TCC/Diário de campo.md",
+    "Aula/Projetos II.md",
+    "Aula/Telecom.md",
+    "Aula/Automacao.md",
+    "Aula/Eletrônica Industrial.md",
     "TCC",
     "Aula/_Diretrizes de Padronização.md",
     "Aula/Automação.md",
