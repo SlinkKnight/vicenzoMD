@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula/Telecom.md",
+                "file": "Aula/Projetos II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Telecom"
+              "title": "Projetos II"
             }
           },
           {
@@ -203,8 +203,9 @@
   },
   "active": "29fad389e28f8e50",
   "lastOpenFiles": [
-    "Aula/Automacao.md",
     "Aula/Telecom.md",
+    "Aula/Automacao.md",
+    "Livros/A morte de Ivan Ilitch - Tolstói, 1886.md",
     "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
     "TCC/Diário de campo.md",
     "Aula/Projetos II.md",
@@ -244,7 +245,6 @@
     "copilot/copilot-custom-prompts/Simplify.md",
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "MEDIA/obsidian_linear_chart.html",
