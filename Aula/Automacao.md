@@ -191,3 +191,31 @@ Implementação de semáforo com quatro estados temporizados em Ladder.
 ![Animação semáforo 4 tempos](../_MEDIA/MToolIEC_rb10Zgg2tL.gif)
 
 ---
+
+## Gatilhos de borda
+
+![](../_MEDIA/Pasted%20image%2020260402083014.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083026.png)
+## Blocos aritméticos
+
+![](../_MEDIA/Pasted%20image%2020260402083121.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083057.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083106.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083136.png)
+
+## Blocos trigonométricos
+
+![](../_MEDIA/Pasted%20image%2020260402083347.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083359.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083411.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083423.png)
+
+![](../_MEDIA/Pasted%20image%2020260402083439.png)
+
