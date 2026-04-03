@@ -1,5 +1,3 @@
-# Diretrizes de Padronização de Notas
-
 ## 1. Estrutura do Arquivo
 
 - Incluir um bloco de metadados com `Professor`, `Data` e `Tags` (se aplicável):
@@ -84,16 +82,15 @@
 
 ## 9. Nomenclatura de Arquivos
 
-- Formato: `Aula_NomeDisciplina.md`
+- Formato: `NomeDisciplina.md`
 - Sem espaços, sem acentos no nome do arquivo.
-- Exemplos: `Aula_Automacao.md`, `Aula_Telecom.md`, `Aula_Projetos_II.md`
+- Exemplos: `Automacao.md`, `Telecom.md`, `Projetos_II.md`
 
 ---
 
 ## 10. Exemplo de Estrutura Completa
 
 ```markdown
-# Nome da Disciplina
 
 **Professor:** Nome do Professor  
 **Data:** DD/MM/AAAA  
