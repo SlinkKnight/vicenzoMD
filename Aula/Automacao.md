@@ -223,11 +223,10 @@ Os **blocos aritméticos** realizam operações matemáticas sobre variáveis do
 
 ![Bloco DIV — divisão](../_MEDIA/Pasted%20image%2020260402083136.png)
 
-| Bloco   | Operação        | Resultado (`OUT`)         |
+| Bloco     | Operação        | Resultado (`OUT`)         |
 | ------- | --------------- | ------------------------- |
-| `ADD`   | Adição          | `IN1 + IN2`               |
-| `SUB`   | Subtração       | `IN1 - IN2`               |
-| `MUL`   | Multiplicação   | `IN1 × IN2`               |
+| `   DD`   | Adição          | `IN1 + IN2`               |
+|   `SUB`   | Subtração       | `IN1 - IN2`               |   | `MUL`   | Multiplicação   | `IN1 × IN2`         `DIV`   |
 | `DIV`   | Divisão         | `IN1 ÷ IN2`               |
 
 > **Lembrete:** Para `DIV`, garantir que `IN2 ≠ 0` para evitar erro de execução no CLP.
@@ -272,14 +271,13 @@ Os **comparadores lógicos** comparam dois valores numéricos e ativam a saída 
 
 ![Bloco GE — maior ou igual a](../_MEDIA/Pasted%20image%2020260402205003.png)
 
-| Bloco  | Condição verificada   | Saída ativa quando…   |
+| Bloco   | Condição verificada   | Saída ativa quando…   |
 | ------ | --------------------- | --------------------- |
-| `EQ`   | Igual                 | `IN1 = IN2`           |
-| `NE`   | Diferente             | `IN1 ≠ IN2`           |
-| `LT`   | Menor que             | `IN1 < IN2`           |
-| `LE`   | Menor ou igual a      | `IN1 ≤ IN2`           |
-| `GT`   | Maior que             | `IN1 > IN2`           |
-| `GE`   | Maior ou igual a      | `IN1 ≥ IN2`           |
+| `E      | Igual                 | `IN1 = IN2`           |
+| `   `   | Diferente             | `IN1 ≠ IN2`           |
+|    T`   | Menor que             | `IN1 < IN2`           |
+|   LE`   | Menor ou igual a      | `IN1 ≤ IN2`           |
+   `GT`   | Maior que             | `IN1 > IN2`        `GE`    `GE`   | Maior ou igual a      | `IN1 ≥ IN2`           |
   
 ---
 ## Declaração de Variáveis Constantes com Valor Inicial
