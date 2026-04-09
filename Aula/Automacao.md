@@ -271,13 +271,14 @@ Os **comparadores lógicos** comparam dois valores numéricos e ativam a saída 
 
 ![Bloco GE — maior ou igual a](../_MEDIA/Pasted%20image%2020260402205003.png)
 
-| Bloco   | Condição verificada   | Saída ativa quando…   |
+| Bloco  | Condição verificada   | Saída ativa quando…   |
 | ------ | --------------------- | --------------------- |
-| `E      | Igual                 | `IN1 = IN2`           |
-| `   `   | Diferente             | `IN1 ≠ IN2`           |
-|    T`   | Menor que             | `IN1 < IN2`           |
-|   LE`   | Menor ou igual a      | `IN1 ≤ IN2`           |
-   `GT`   | Maior que             | `IN1 > IN2`        `GE`    `GE`   | Maior ou igual a      | `IN1 ≥ IN2`           |
+| `EQ`   | Igual                 | `IN1 = IN2`           |
+| `NE`   | Diferente             | `IN1 ≠ IN2`           |
+| `LT`   | Menor que             | `IN1 < IN2`           |
+| `LE`   | Menor ou igual a      | `IN1 ≤ IN2`           |
+| `GT`   | Maior que             | `IN1 > IN2`           |
+| `GE`   | Maior ou igual a      | `IN1 ≥ IN2`           |
   
 ---
 ## Declaração de Variáveis Constantes com Valor Inicial
@@ -288,9 +289,7 @@ No MasterTools, variáveis podem ser declaradas com um **valor inicial fixo**, g
 A sintaxe segue o padrão:
 
 ```
-
 NomeVariavel : Tipo := ValorInicial;
-
 ```
 
 - **`NomeVariavel`:** Identificador da variável, sem espaços ou acentos.
