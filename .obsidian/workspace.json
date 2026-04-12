@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula/Automacao.md",
+                "file": "TCC/Diário de campo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automacao"
+              "title": "Diário de campo"
             }
           },
           {
@@ -203,11 +203,11 @@
   },
   "active": "e6868d9c090e5371",
   "lastOpenFiles": [
+    "Aula/Telecom.md",
+    "Aula/Projetos II.md",
     "Aula/_Diretrizes de Padronização.md",
     "Aula/Automacao.md",
-    "Aula/Projetos II.md",
     "Aula/Eletrônica Industrial.md",
-    "Aula/Telecom.md",
     "_MEDIA/Pasted image 20260326212954.png",
     "_MEDIA/Pasted image 20260402210734.png",
     "_MEDIA/Pasted image 20260402210719.png",
