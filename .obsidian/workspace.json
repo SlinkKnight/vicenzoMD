@@ -117,12 +117,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aula/Automação.md",
+                "file": "Aula/Automacao.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Automação"
+              "title": "Links de saída para Automacao"
             }
           },
           {
@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
