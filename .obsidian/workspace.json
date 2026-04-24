@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aula/Automacao.md",
+                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automacao"
-            }
-          },
-          {
-            "id": "3b7700962f74e251",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://blog.thea.codes/the-design-of-the-juno-dco/",
-                "title": "The Design of the Roland Juno oscillators - Stargirl (Thea) Flowers",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "The Design of the Roland Juno oscillators - Stargirl (Thea) Flowers"
+              "title": "Design do DCO — Escolhas e Inspirações"
             }
           }
         ]
@@ -117,12 +103,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aula/Automacao.md",
+                "file": "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Automacao"
+              "title": "Links de saída para Design do DCO — Escolhas e Inspirações"
             }
           },
           {
@@ -186,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,13 +189,13 @@
   },
   "active": "e6868d9c090e5371",
   "lastOpenFiles": [
+    "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+    "Aula/Automacao.md",
     "Aula/Eletrônica Industrial.md",
     "Aula/Projetos II.md",
     "Aula/Telecom.md",
     "TCC/Diário de campo.md",
-    "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
     "Aula/_Diretrizes de Padronização.md",
-    "Aula/Automacao.md",
     "_MEDIA/Pasted image 20260326212954.png",
     "_MEDIA/Pasted image 20260402210734.png",
     "_MEDIA/Pasted image 20260402210719.png",
