@@ -14,3 +14,11 @@ Foi feita a entrevista presencial com o senhor Sandro Seixas, que possui 15cm do
 ### 13/04/26
 
 Foi criado o Trello do projeto, que consta as informações discutidas no dia 27/03. Prazos finais também foram adicionados
+
+### 20/04/26
+
+Terminado o trello do projeto, considerando data, tags, sub-checklists. A entrega disso está planejada para 24/04. Foi tambem finalizada a inscrição da febic visando os campos requisitados pelo professor orientador (Botar campos aqui, tá no drive).
+
+### 24/04/26
+
+Entregue a documentação da febic. entregue tambem a lista do trello finalizada dia 20. Planejamento do fluxograma e diagrama.
