@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "57faf8c4bd66405c",
+        "id": "8e658d6dac5ad11a",
         "type": "tabs",
         "children": [
           {
-            "id": "e6868d9c090e5371",
+            "id": "7426fab32f2a802e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TCC/Diário de campo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Diário de campo"
+              "title": "Nova aba"
             }
           }
         ]
@@ -187,14 +183,14 @@
       "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "e6868d9c090e5371",
+  "active": "7426fab32f2a802e",
   "lastOpenFiles": [
     "Projeto Sintetizador/Design do DCO — Escolhas e Inspirações.md",
+    "TCC/Diário de campo.md",
     "Aula/Automacao.md",
     "Aula/Eletrônica Industrial.md",
     "Aula/Projetos II.md",
     "Aula/Telecom.md",
-    "TCC/Diário de campo.md",
     "Aula/_Diretrizes de Padronização.md",
     "_MEDIA/Pasted image 20260326212954.png",
     "_MEDIA/Pasted image 20260402210734.png",
