@@ -1,4 +1,4 @@
-
+# A morte de Ivan Ilitch - Tolstói, 1886
 ### 11/02/25 - Capitulo I
 
  O livro se inicia com alguns advogados discutindo um caso na sala de Fyodor (também um dos advogados), quando recebem a noticia da morte de Ivan Ilitch, um dos seus ex-colegas. instantaneamente, eles começam a discutir como ficariam os cargos, após Ivan liberar sua vaga. 
@@ -75,3 +75,9 @@ Porem, quando sua esposa pede para ele se ele sente melhor, e ele responde que s
 
 O ultimo capitulo de A morte de Ivan Ilitch fala sobre sua morte. Ele se inicia com o declínio rápido de Ivan nos últimos 3 dias, que agora está gemendo, prestes a morrer. Ele descreve a luta com o saco preto sendo ocasionada por ele não aceitar que viveu errado, mas pior que isso, ele não consegue colaborar. Podemos perceber em suas falas o desespero.
 Ele acaba esquecendo sua dor, pois finalmente entrou no saco e caminhou em direção a luz, então morreu. No fim do livro, ele pede desculpas para seu filho, sente pena dele e da mulher, mas sabe que será melhor sem sua presença.
+
+# A hora da estrela - Clarice
+
+## Minha opinião
+
+# Memórias do subsolo - Dostoievsky

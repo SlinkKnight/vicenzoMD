@@ -1,9 +1,9 @@
 **Professor:** Maicon Bandeira
-**Tags:** `ladder` `CLP` `portas-lógicas` `timers` `contadores`
+**Tags:** `ladder` `CLP` `portas-lógicas` `timers` `contadores` `FBD`
 
 ---
-
-## Portas Lógicas no MasterTools
+# Trimestre 1
+## Portas Lógicas em LADDER
 
 ### Porta AND
 
@@ -307,7 +307,6 @@ As **bobinas Set-Reset** (`S`/`R`) são elementos de memória em Ladder que mant
 Quando a condição de entrada é verdadeira (`1`), a variável associada é **setada** (vai a nível alto) e **permanece assim** mesmo que a condição volte a ser falsa.
 
 ![](../_MEDIA/Pasted%20image%2020260402210734.png)
-
 ### Bobina Reset (R)
 
 Quando a condição de entrada é verdadeira (`1`), a variável associada é **resetada** (vai a nível baixo) e **permanece assim** até que uma bobina `S` a acione novamente.
@@ -322,3 +321,58 @@ Quando a condição de entrada é verdadeira (`1`), a variável associada é **r
 O par `S`/`R` forma um **flip-flop SR** em Ladder, sendo amplamente utilizado em lógicas de partida/parada de motores e controle de estados com memória.  
 
 > **Lembrete:** Quando `S` e `R` são acionados simultaneamente, o comportamento depende da implementação do CLP — no MasterTools, a instrução que aparece **por último no scan** tem prioridade (geralmente `R`).
+
+---
+# Trimestre 2
+
+## FBD
+
+FBD é uma linguagem similar ao LADDER, mas as operações e contatos básicos agora são feitas por blocos, similar às aulas de eletrônica digital:
+
+![](../_MEDIA/Pasted%20image%2020260620220154.png)
+
+A maior parte dos blocos é do LADDER, porém, aqui conseguimos adicionar mais entradas e saídas, além de negar as entradas diretamente no bloco. 
+Para colocar novos blocos, o projetista pode utilizar a barra localizada acima da barra de trabalho no botão `box`, lá ele conseguirá escolher o bloco desejado.
+
+> **Lembrete:** Em FBD, a maioria das operações de bloco são realizadas ao clicas nas saídas e entradas dos mesmos.
+
+### Exercícios
+
+![](../_MEDIA/14%20-%20Forno_4_zonas.pdf)
+
+---
+## Telas e visualização CLP ALTUS
+
+Para a visualização no CLP ALTUS, é importante seguir as seguintes diretrizes:
+
+* Tamanho de fonte 6 ou 8 (Definido pelo fabricante);
+* Começar o projeto baseado no template: `Modelo_DU350_DU351_V110.pro`
+
+> **Lembrete:** Não editar o template em hipótese alguma.
+
+A tela inicial do CLP **deve ser nomeada MAIN**, as restantes podem ser nomeadas arbitrariamente pelo projetista. Para trocar entre telas no CLP, o projetista deve ir em `Extras -> Keyboard Usage`, que mostrará a seguinte tela:
+
+![](../_MEDIA/Pasted%20image%2020260620221454.png)
+
+O usuário aqui define macros de controle.
+
+---
+## Display de variáveis do tipo inteiro
+
+Para mostrar variáveis do tipo inteiro na visualização, o usuário deve colocar o texto da caixa como `%d`, como em programação. Além disso, o projetista deve colocar `PLC_PRG.VARIAVEL` dentro do **TextDisplay** na secção variables. É importante ter em mente o tipo da variável a ser utilizada.
+
+---
+## ST
+
+![](../_MEDIA/ST%20-%20IEC%201131-3.pdf)
+
+### Exercícios
+
+![](../_MEDIA/Pasted%20image%2020260707222615.png)
+
+---
+## Conversor AD
+
+### Habilitar entrada analógica
+
+![](../_MEDIA/Pasted%20image%2020260813081239.png)

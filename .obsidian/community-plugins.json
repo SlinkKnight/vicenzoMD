@@ -1,4 +1,6 @@
 [
   "obsidian-git",
-  "file-cleaner-redux"
+  "file-cleaner-redux",
+  "markdown-tree",
+  "obsidian-icon-folder"
 ]

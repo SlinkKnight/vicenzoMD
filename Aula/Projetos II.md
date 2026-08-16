@@ -32,3 +32,35 @@ $$S_r = 2\pi F V_p$$
 | Logaritmo de 1         | $\log_b 1 = 0$                                            |
 | Identidade exponencial | $\log_b b^x = x$                                          |
 | Identidade inversa     | $b^{\log_b x} = x$                                        |
+
+---
+## Tipos de circuitos OPAMP
+
+```markdown-tree
+Sem realimentação
+	Comparadores
+		Inversor
+			Passagem por zero
+			Sem passagem por zero
+		Não inversor
+			Passagem por zero
+			Sem passagem por zero
+
+Com realimentação
+	Negativa 
+		Amplificadores
+			Não Inversor
+			Inversor
+			Buffer
+	Positiva
+		Osciladores
+			
+````
+
+---
+
+![](../_MEDIA/Operação%20Realimentação%20Negativa.pdf)
+
+---
+
+![](../_MEDIA/Circuitos%20Clipper.pdf)

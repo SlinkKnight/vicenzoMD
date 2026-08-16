@@ -341,3 +341,8 @@ void loop() {
 ```
 
 ![Resultado questão 5](../_MEDIA/Pasted%20image%2020260326221317.png)
+
+---
+## Exemplo de prova
+
+![](../_MEDIA/Prova%20Telecom%202024.pdf)

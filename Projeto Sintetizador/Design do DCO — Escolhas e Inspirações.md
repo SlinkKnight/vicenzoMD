@@ -16,7 +16,6 @@ O CPU recebe o feed de um clock e calcula a frequência com base no input das te
 
 ---
 ## O CPU
-
 *(a preencher)*
 
 ---
